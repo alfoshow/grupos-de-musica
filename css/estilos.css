@@ -6,14 +6,11 @@ body {
 
 a {
     font-weight: bold;
-    color: #CDB380;
+    color: #FF7100;
     text-decoration: none;
 }
 
-a:hover{
-
-
-}
+a:hover {}
 
 h1 {
     font-size: 3.5em;
@@ -21,8 +18,20 @@ h1 {
     text-align: center;
     padding-bottom: 0.5em;
     font-family: 'Oswald', sans-serif;
-    margin:0;
+    margin: 0;
     /* color: #CCC; */
+}
+
+h2 {
+    background: #222;
+    padding: 0.2em;
+    border-bottom: 1px solid;
+    /* color:#FF9540; */
+    /* color: #CDB380; */
+}
+
+h3 {
+    color: #CDB380;
 }
 
 header {
@@ -34,6 +43,13 @@ nav {
     width: 960px;
     margin: 0 auto;
     background-color: #E8DDCB;
+}
+
+
+nav img {
+    width: 600px;
+    display: block;
+    margin:0 auto;    
 }
 
 nav a {
@@ -64,7 +80,32 @@ footer {
     padding: 2em;
 }
 
+
 footer ul li {
     display: inline;
     margin-left: 10px;
+}
+
+.lista-imagenes {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-imagenes img {
+    width: 50px;
+    height: auto;
+    border: 1px solid;
+    margin: 0 10px 10px;
+    height: auto;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: #222;
+    /* color:#FF9540; */
+    /* color: #CDB380; */    
+}
+
+.lugar{
+    color:#aaa;
+
+
 }
